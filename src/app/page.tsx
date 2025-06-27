@@ -15,8 +15,8 @@ export default function Home() {
             <Image src="/logo.svg" alt="Logo" width={40} height={40} />
             <span className="text-xl font-bold">AiGenie</span>
           </div>
-          <Link href="/sign-in">
-            <Button className="px-8 py-6 text-lg">🔐 Login to Dashboard</Button>
+          <Link href="/dashboard">
+            <Button className="px-8 py-6 text-lg cursor-pointer">🔐 Login to Dashboard</Button>
           </Link>
         </div>
       </header>
