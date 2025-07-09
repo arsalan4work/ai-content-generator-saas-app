@@ -9,7 +9,6 @@
     "lint": "next lint",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "preinstall": "npx npm@latest install --legacy-peer-deps"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.20.0",
