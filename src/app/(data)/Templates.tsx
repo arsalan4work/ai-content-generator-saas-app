@@ -589,22 +589,6 @@ export default [
     ],
   },
   {
-    name: "YouTube Video Script Generator",
-    desc: "Creates a full YouTube video script based on your topic.",
-    category: "YouTube",
-    icon: "https://cdn-icons-png.flaticon.com/128/1384/1384060.png",
-    aiPrompt: "Generate a complete YouTube video script for the given topic. Include intro, body, and outro.",
-    slug: "youtube-script-generator",
-    form: [
-      {
-        label: "What is the video about?",
-        field: "textarea",
-        name: "topic",
-        required: true,
-      },
-    ],
-  },
-  {
     name: "YouTube Hook/Intro Line Generator",
     desc: "Generates powerful YouTube video hooks to retain viewers.",
     category: "YouTube",
