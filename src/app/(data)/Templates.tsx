@@ -589,22 +589,6 @@ export default [
     ],
   },
   {
-    name: "YouTube Hook/Intro Line Generator",
-    desc: "Generates powerful YouTube video hooks to retain viewers.",
-    category: "YouTube",
-    icon: "https://cdn-icons-png.flaticon.com/128/1384/1384060.png",
-    aiPrompt: "Write 3 engaging YouTube video hooks (intro lines) to capture attention quickly for this topic.",
-    slug: "youtube-hook-generator",
-    form: [
-      {
-        label: "Enter your video topic",
-        field: "input",
-        name: "topic",
-        required: true,
-      },
-    ],
-  },
-  {
     name: "YouTube Thumbnail Text Ideas",
     desc: "Suggests bold thumbnail text to boost CTR for YouTube videos.",
     category: "YouTube",
@@ -653,22 +637,6 @@ export default [
     ],
   },
   {
-    name: "Value Proposition Generator",
-    desc: "Generates compelling value propositions for startups and services.",
-    category: "Marketing",
-    icon: "https://cdn-icons-png.flaticon.com/128/6334/6334810.png",
-    aiPrompt: "Write a strong value proposition statement for the following business idea.",
-    slug: "value-proposition-generator",
-    form: [
-      {
-        label: "Describe your business or product",
-        field: "textarea",
-        name: "product",
-        required: true,
-      },
-    ],
-  },
-  {
     name: "Brand Voice Definition Generator",
     desc: "Defines a clear brand tone and voice for your business.",
     category: "Marketing",
@@ -680,22 +648,6 @@ export default [
         label: "Describe your brand",
         field: "textarea",
         name: "brand",
-        required: true,
-      },
-    ],
-  },
-  {
-    name: "Mission Statement Generator",
-    desc: "Creates a mission statement that communicates purpose and values.",
-    category: "Marketing",
-    icon: "https://cdn-icons-png.flaticon.com/128/2620/2620977.png",
-    aiPrompt: "Write a strong mission statement for the business based on this description.",
-    slug: "mission-statement-generator",
-    form: [
-      {
-        label: "Describe your company or organization",
-        field: "textarea",
-        name: "company",
         required: true,
       },
     ],
@@ -925,38 +877,6 @@ export default [
     ],
   },
   {
-    name: "YouTube Thumbnail Text Ideas",
-    desc: "Generates short catchy text ideas for YouTube thumbnails.",
-    category: "YouTube",
-    icon: "https://cdn-icons-png.flaticon.com/128/1384/1384060.png",
-    aiPrompt: "Suggest 3 short and catchy phrases for a YouTube thumbnail on this topic.",
-    slug: "youtube-thumbnail-text-generator",
-    form: [
-      {
-        label: "Enter video topic",
-        field: "input",
-        name: "topic",
-        required: true,
-      },
-    ],
-  },
-  {
-    name: "Startup Name Generator",
-    desc: "Creates unique and brandable names for startups.",
-    category: "Business",
-    icon: "https://cdn-icons-png.flaticon.com/128/857/857681.png",
-    aiPrompt: "Suggest 5 creative startup name ideas based on the product or service described.",
-    slug: "startup-name-generator",
-    form: [
-      {
-        label: "Describe your product or service",
-        field: "textarea",
-        name: "idea",
-        required: true,
-      },
-    ],
-  },
-  {
     name: "Slogan/Tagline Generator",
     desc: "Generates catchy taglines or slogans for branding.",
     category: "Business",
@@ -984,22 +904,6 @@ export default [
         label: "Describe your product/service and audience",
         field: "textarea",
         name: "description",
-        required: true,
-      },
-    ],
-  },
-  {
-    name: "Brand Voice Definition Generator",
-    desc: "Helps define tone and voice of your brand.",
-    category: "Marketing",
-    icon: "https://cdn-icons-png.flaticon.com/128/3274/3274554.png",
-    aiPrompt: "Define the ideal tone, voice, and language style for the following brand.",
-    slug: "brand-voice-generator",
-    form: [
-      {
-        label: "Describe your brand and audience",
-        field: "textarea",
-        name: "brand",
         required: true,
       },
     ],
